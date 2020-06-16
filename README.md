@@ -23,3 +23,39 @@ The Unity folder contains the code for the Unity Application. This Application i
 - Render graph showing several data streams
 
 The UVCCameraPlugin folder contains the C++ code for the camera plugin. This is a Unity plugin. All the OpenCV code is being executed in here.
+
+
+
+###
+###
+An Advance AI-assisted Bouncer trying to control a bouncing ball!
+
+It is an Arduino project with 120 FPS custom image processing and smooth stepper motor moves. The machine calculates the ball's 3D position from the image processing data and uses this information to control the orange ping pong ball.
+
+Some cool features:
+- New custom ball detection algorithm
+- New ball position data visualization
+- Hit position prediction using gradient descent
+- Plate tilt visualization
+- Analytical tilt control
+- Two-step bouncing
+
+This machine requires the following things to work:
+- 1x Teensy 4.0 Microcontroller
+- 4x StepperOnline DM442S stepper motor drivers
+- 4x Nema 17 Stepper Motors with 5:1 planetary gearbox
+- 1x 48V 8A power supply
+- 1x e-con Systems See3CAM_CU135 camera
+- 1x Windows Computer running below Unity Application
+- Custom Windows Application (made with Unity)
+- All the parts defined the Fusion360 project
+
+Read more here:
+https://electrondust.com/2020/05/25/the-octo-bouncer:-advanced-bouncing-patterns/
+
+Video:
+https://dms.licdn.com/playlist/C5605AQGHEhKdQbs8Bw/mp4-720p-30fp-crf28/0?e=1592420400&v=beta&t=Nwt2T8tvQ-_v-ryo0hiLs2m8XtjPutw5C89qVx_uyoQ
+
+
+#innovation #artificialintelligence #datascience
+# #machinelearning #deeplearning
